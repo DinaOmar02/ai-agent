@@ -3,7 +3,7 @@ from pathlib import Path
 from pypdf import PdfReader
 
 
-DATA_DIR = Path("data/microsoft")
+DATA_DIR = Path("data/hotel")
 
 
 def extract_pdf_pages(pdf_path: Path) -> list[dict]:
